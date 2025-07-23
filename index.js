@@ -12,7 +12,7 @@ const cookieParser = require("cookie-parser");
 app.use(cookieParser());
 
 const mongoose = require("mongoose");
-mongoose.connect("mongodb://localhost:27017/secrets",
+mongoose.connect("mongodb://127.0.0.1:27017/secrets",
     { useNewUrlParser: true, useUnifiedTopology: true }
 );
 const trySchema = new mongoose.Schema({
