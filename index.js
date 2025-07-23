@@ -94,5 +94,5 @@ app.get("/logout", (req, res) => {
 });
 
 app.listen(5500,function(){
-    console.log("server started on 5000");
+    console.log("server started on 5500");
 });
